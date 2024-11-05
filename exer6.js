@@ -12,3 +12,4 @@ let idades = [16, 48, 23, 22, 45, 8, 12]
 
     console.log(`(Sua idade é: ${idade})`);
    })
+   
