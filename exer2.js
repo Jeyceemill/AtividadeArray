@@ -4,9 +4,9 @@
 // c. Array.
 
 let vogais = ['A','E','I', 'O', 'U',]
- vogais.forEach ((letrasValor, indiceLetra, arrayLetra) => {
-    console.log(`Valor: ${letrasValor}`);
-    console.log(`Indice: ${indiceLetra}`);
-    console.log(`Array: ${arrayLetra}`);
+ vogais.forEach ((Valor, indice, array) => {
+    console.log(`1° parâmentro: ${Valor}`);
+    console.log(`2° parâmetro: ${indice}`);
+    console.log(`3° parâmetro: ${array}`);
 
 })

@@ -2,12 +2,9 @@
 // repetidos. Utilizando o método foreach, percorra o array e mostre os 
 // // valores na tela. 
 
-let jogos = ['Pou', 'Minecrafit', 'Super Mário',]
+let jogos =  ['Pou', 'Minecraft', 'Super Mário','Mortal Kombat','Pokemon go']
 
-  jogos.forEach ((jogos, valor, todoOsElementos) =>{
-    console.log(`Jogos disponíveis: ${jogos}`);
-    console.log(`Valor do jogo: ${valor}`);    
+  jogos.forEach ((valor) =>{
+    console.log(`Nome do jogo: ${valor}`);    
 })
-
-
 
